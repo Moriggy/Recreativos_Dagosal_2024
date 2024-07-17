@@ -1,0 +1,112 @@
+﻿﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme defaultView="gamecarousel">
+	<formatVersion>7</formatVersion>
+
+	<view name="gamecarousel">
+		<gamecarousel name="gamecarousel">
+			<type>vertical_wheel</type>
+			<pos>0.37 0</pos>
+			<size>1 1</size>
+			<origin>0 0</origin>
+			<logoScale>1.5</logoScale>
+			<logoSize>0.14 0.14</logoSize>
+			<logoRotation>-6.5</logoRotation>
+			<logoRotationOrigin>5.5 0.5</logoRotationOrigin>
+			<logoAlignment>center</logoAlignment>
+			<maxLogoCount>7</maxLogoCount>
+			<imageSource>marquee</imageSource> <!-- text, image, thumbnail, marquee -->
+			<scrollSound>./_art/scroll.wav</scrollSound>
+			<zIndex>3</zIndex>
+		</gamecarousel>
+		
+		<text name="gamecarouselLogoText">
+			<color>FFFFFFFF</color>
+			<glowColor>000000FF</glowColor>
+			<glowSize>4</glowSize>
+			<lineSpacing>1.0</lineSpacing>
+		</text>
+		
+		<!-- Video scrapeado del juego -->
+			
+		<video name="md_video">
+			<pos>0.288 0.54</pos>
+			<maxSize>0.47 0.48</maxSize>
+			<origin>0.5 0.5</origin>
+			<delay>0.1</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+			<loops>5</loops>
+			<roundCorners>0.01</roundCorners>
+			<zIndex>0</zIndex>
+		</video>
+		
+		<!-- Posicion y tamaño imagen juego -->
+
+		<image name="md_image">
+			<pos>0.4994 0</pos>
+			<origin>0 0</origin>
+			<size>0.5 1</size>
+			<zIndex>1</zIndex>
+		</image>
+		
+		<!-- Cabinets -->
+		
+		<image name="md_thumbnail">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<origin>0 0</origin>
+			<zIndex>1</zIndex>
+		</image>
+		
+		<!-- Sistemas -->
+		
+		<image name="sistemas" extra="true">
+			<path>./_art/sistemas/${system.theme}.png</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<origin>0 0</origin>
+			<zIndex>1</zIndex>
+		</image>
+		
+		<image name="overlay" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./_art/overlay.png</path>
+			<zIndex>4</zIndex>
+		</image>
+		
+		<image name="overlay2" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./_art/overlay2.png</path>
+			<zIndex>2</zIndex>
+		</image>
+
+		<helpsystem name="help">
+		  <pos>2 2</pos>
+		</helpsystem>
+		<image name="logo">
+		  <pos>2 2</pos>
+		</image>
+			<image name="top-shadow" extra="true">
+		  <pos>2 2</pos>
+		</image>
+		<image name="top" extra="true">
+		  <pos>2 2</pos>
+		</image>
+		<image name="topLine" extra="true">
+		  <pos>2 2</pos>
+		</image>
+		<image name="bottom" extra="true">
+		  <pos>2 2</pos>
+		</image>
+			<rating name="md_rating">
+		  <pos>2 2</pos>
+		</rating>
+
+	</view>
+
+</theme>

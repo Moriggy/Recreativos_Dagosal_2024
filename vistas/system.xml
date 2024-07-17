@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+	
+		<!-- Imagen / video de fondo -->
+		
+		<image name="system" extra="static">
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<path>./_art/bg.png</path>
+			<zIndex>1</zIndex>
+		</image>
+		
+		<image name="flecha" extra="static">   
+		  <path>./_art/flecha.png</path>
+			<storyboard>
+		  <animation property="opacity" from="0.5" to="1" duration="1200" mode="linear" repeat="0" autoReverse="true"/>      
+		  </storyboard>
+		  <pos>0 0</pos>
+		  <size>1 1</size>
+		  <origin>0 0</origin>
+		  <zIndex>1</zIndex>
+		</image>
+		
+		<image name="logor" extra="static">   
+		  <path>./_art/logor.png</path>
+		  <pos>0 0</pos>
+		  <size>1 1</size>
+		  <origin>0 0</origin>
+		  <zIndex>2</zIndex>
+		</image>
+		
+		<image name="logorb" extra="static">   
+		  <path>./_art/logorb.png</path>
+			<storyboard>
+		  <animation property="opacity" from="0.5" to="1" duration="1300" mode="linear" repeat="0" autoReverse="true"/>      
+		  </storyboard>
+		  <pos>0 0</pos>
+		  <size>1 1</size>
+		  <origin>0 0</origin>
+		  <zIndex>1</zIndex>
+		</image>
+		
+		<video name="backgroundvideo" extra="true">
+		  <path>{random}</path>
+		  <path>./_art/videos/${system.theme}.mp4</path>
+		  <size>0.58 0.65</size>
+		  <pos>0.67 0.58</pos>
+		  <origin>0.5 0.5</origin>
+		  <minSize>1 1</minSize>
+		  <delay>0.2</delay>
+		  <effect>none</effect>
+		  <zIndex>0</zIndex>
+		</video>		
+		
+		<image name="overlay" extra="static">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./_art/overlay.png</path>
+			<zIndex>3</zIndex>
+		</image>
+		
+		<!-- Logos sistemas -->
+		
+		<image name="logo">
+			<path>./_art/logos/${system.theme}.png</path>
+		</image>
+		
+		<!-- Logo de sistema en texto si falta imagen -->
+		
+		<text name="logoText">
+			<fontPath>./_art/fuentes/Watone.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+			<color>FF8000</color>
+			<forceUppercase>true</forceUppercase>    
+		</text>
+		
+		<!-- Menu de ayuda -->
+		
+		<helpsystem name="help">
+			<fontPath>./_art/fuentes/Watone.ttf</fontPath>
+		</helpsystem>
+	
+	</view>
+  
+</theme>

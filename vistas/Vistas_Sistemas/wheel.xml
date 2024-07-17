@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="system">
+	
+		<!-- Modo de vista de los sistemas -->
+		
+		<carousel name="systemcarousel">
+			<type>vertical_wheel</type>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<origin>0 0</origin>
+			<color>00000000</color>
+			<logoScale>1.2</logoScale>
+			<logoSize>0.240 0.200</logoSize>
+			<logoRotation>7.5</logoRotation>
+			<logoRotationOrigin>-3.2 0.5</logoRotationOrigin>
+			<logoAlignment>left</logoAlignment>
+			<maxLogoCount>5</maxLogoCount>
+			<zIndex>2</zIndex>	 
+		</carousel>
+		
+		<!-- Numero de juegos del sistema --> 
+			
+		<text name="systemInfo">		
+			<size>1 0.25</size>
+			<pos>0.18 0.83</pos>
+			<origin>0 0</origin>
+			<backgroundColor>0000FF00</backgroundColor>
+			<color>${baseColor}</color>			
+			<reflexion>0.0 0.0</reflexion>
+			<fontPath>./_art/fuentes/Watone.ttf</fontPath>
+			<zIndex>5</zIndex>
+		</text>
+		
+		<!-- Menu de ayuda -->
+		
+		<helpsystem name="help">
+			<pos>1 1</pos>
+		</helpsystem>
+			
+	</view>
+  
+</theme>
