@@ -33,7 +33,8 @@
 			<pos>0.288 0.54</pos>
 			<maxSize>0.47 0.48</maxSize>
 			<origin>0.5 0.5</origin>
-			<delay>0.1</delay>
+			<delay>0</delay>
+			<effect>none</effect>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
 			<loops>5</loops>

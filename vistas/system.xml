@@ -10,7 +10,7 @@
 			<size>1 1</size>
 			<pos>0 0</pos>
 			<path>./_art/bg.png</path>
-			<zIndex>1</zIndex>
+			<zIndex>2</zIndex>
 		</image>
 		
 		<image name="flecha" extra="static">   
@@ -21,7 +21,7 @@
 		  <pos>0 0</pos>
 		  <size>1 1</size>
 		  <origin>0 0</origin>
-		  <zIndex>1</zIndex>
+		  <zIndex>2</zIndex>
 		</image>
 		
 		<image name="logor" extra="static">   
@@ -29,7 +29,7 @@
 		  <pos>0 0</pos>
 		  <size>1 1</size>
 		  <origin>0 0</origin>
-		  <zIndex>2</zIndex>
+		  <zIndex>3</zIndex>
 		</image>
 		
 		<image name="logorb" extra="static">   
@@ -40,7 +40,7 @@
 		  <pos>0 0</pos>
 		  <size>1 1</size>
 		  <origin>0 0</origin>
-		  <zIndex>1</zIndex>
+		  <zIndex>2</zIndex>
 		</image>
 		
 		<video name="backgroundvideo" extra="true">
@@ -50,17 +50,29 @@
 		  <pos>0.67 0.58</pos>
 		  <origin>0.5 0.5</origin>
 		  <minSize>1 1</minSize>
-		  <delay>0.2</delay>
+		  <delay>1.5</delay>
 		  <effect>none</effect>
+		  <zIndex>1</zIndex>
+		</video>	
+
+		<image name="backgroundMachines" extra="true">
+		  <tile>false</tile>
+		  <linearSmooth>true</linearSmooth>
+		  <path>./_art/background/${system.theme}.jpg</path>
+		  <size>0.58 0.65</size>
+		  <color>FFFFFFFF</color>
+		  <pos>0.67 0.58</pos>
+		  <origin>0.5 0.5</origin>
+		  <minSize>1 1</minSize>
 		  <zIndex>0</zIndex>
-		</video>		
+		</image>
 		
 		<image name="overlay" extra="static">
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
 			<path>./_art/overlay.png</path>
-			<zIndex>3</zIndex>
+			<zIndex>4</zIndex>
 		</image>
 		
 		<!-- Logos sistemas -->

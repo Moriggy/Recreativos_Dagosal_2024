@@ -31,7 +31,7 @@ originally based on: "simple" by nils bonenberger
 			<size>0.207 0.285</size>
 			<maxSize>0.48 0.45</maxSize>
 			<origin>0.5 0.5</origin>
-			<delay>0.1</delay>
+			<delay>0</delay>
 			<effect>none</effect>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
